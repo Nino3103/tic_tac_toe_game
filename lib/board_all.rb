@@ -47,12 +47,6 @@ class Board
 
   end
 
-  
+
 
 end
-tableau = Board.new
-player1 = Player.new("Jean", "X")
-player2 = Player.new("Théo", "O")
-
-
-binding.pry
