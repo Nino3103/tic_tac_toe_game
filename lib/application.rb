@@ -16,13 +16,8 @@ my_game = Game.new("Joueur 1", "Joueur 2")
 until my_game.is_finished?
   my_game.show_board
   gets.chomp
-  # my_game.new_players_in_sight
-  # gets.chomp
-  # my_game.menu
-  # my_game.menu_choice
-  # gets.chomp
-  # my_game.enemies_attack
-  # gets.chomp
+
+  # to finish
 end
 my_game.end_game
 
