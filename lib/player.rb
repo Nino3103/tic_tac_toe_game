@@ -1,6 +1,6 @@
 class Player
 
-  attr_accessor :player_name
+  attr_accessor :name
   attr_accessor :forme
 
   def initialize(name, forme)
@@ -8,8 +8,5 @@ class Player
     @forme = forme
   end
 
-  def choice (line, column)
-    return "#{line}#{column}"
-  end
 
 end
